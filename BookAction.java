@@ -15,7 +15,7 @@ public class BookAction extends ActionSupport {
 	private int id;
 	private String au;//搜索传值
 	public String list() throws Exception {
-		books = BookService.list("");
+		books = BookService.list("");//改什么好呢
 		return SUCCESS;
 	}
 	public String search() throws Exception {
